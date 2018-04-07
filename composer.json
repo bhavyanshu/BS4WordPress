@@ -1,0 +1,5 @@
+{
+    "require": {
+        "wp-bootstrap/wp-bootstrap-navwalker": "^4.0"
+    }
+}
