@@ -1,0 +1,14 @@
+### composer ###
+vendor/
+
+
+### Yarn ###
+node_modules/
+yarn*.log
+
+### mac ###
+.DS_Store
+
+### WP ###
+assets/dist
+

@@ -1,0 +1,22 @@
+body {
+  padding-top: 5rem;
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
+// wp-bootstrap compatibility fixes
+.admin-bar {
+  nav.fixed-top {
+    top:46px;
+
+    @include media-breakpoint-up(md) {
+      top: 32px;
+    }
+  }
+}
